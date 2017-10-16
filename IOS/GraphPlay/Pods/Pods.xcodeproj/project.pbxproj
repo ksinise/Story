@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12F36D590677B18E9993CC59D2550B28 /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F167C12AE61ED836225247448FE77C /* BEMSimpleLineGraphView.m */; };
+		1BE879FD91428BB90C584220A3492D12 /* Pods-GraphPlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1603EA0EA47BFA61E3CD5ADB05A09320 /* Pods-GraphPlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C9DF8EBDE5E5741EBCB4FC53BBB28A /* BEMCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 981E1411BBB2AC7045EDE5CC05658603 /* BEMCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2365B3E4DB032997A7507456BAF72092 /* BEMSimpleLineGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D2C3A3E3234468612489969A33199D /* BEMSimpleLineGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E74BD81A0503F230D839EAE2BEBEB90 /* Pods-GraphPlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AA3FD7A6C81D795FB8CD9EDAD9652 /* Pods-GraphPlay-dummy.m */; };
+		3D6C543C987EA3645BFEFB0521ED793C /* BEMAverageLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FBB45B8B21D330FF007E18816544C6 /* BEMAverageLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FE815D15133B3421D591F3016057BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		861B6A549CB77F0A51939C966DE0206C /* BEMSimpleLineGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5CB35933538F2BF7D47244098D389 /* BEMSimpleLineGraph-dummy.m */; };
+		8856A187017D6F9BCDD9467126FA5F20 /* BEMPermanentPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B68E1564F0BF0FBA904B69529A56B6 /* BEMPermanentPopupView.m */; };
+		895ED61E8A32BA85BD7CEEDECDD58B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		960D304B3BDF4BA47B05D2341663C58D /* BEMPermanentPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB7AE17EB328CD28D8B983B6252071B /* BEMPermanentPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0BC6BBB317EDF12B9EACBBC1C8C2C0 /* BEMAverageLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434E8BDF9E8B554800BE7392298E663 /* BEMAverageLine.m */; };
+		BAB705A04BC6388D300352B078852045 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7F37D3F2F26E808BCAB75D311C4630 /* BEMLine.m */; };
+		E1E2C11D1D26663319EA53869837B642 /* BEMSimpleLineGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F930B03787E04A8AAAAB0D613E2BB7 /* BEMSimpleLineGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E479B43F3FCEE39B4A29646EFFF6A37D /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BADF6B7EB8655DD34DDF698200F51AD /* BEMCircle.m */; };
+		E6C6A257FBBB4C26C2A2D13360E45B0B /* BEMLine.h in Headers */ = {isa = PBXBuildFile; fileRef = ED49271F83ABCC808C4854CE4ACC026C /* BEMLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B33DD80E5C0404C9E5138EA17D2C254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A421C6298CB3DF5D749193BD6FD0B38;
+			remoteInfo = BEMSimpleLineGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F930B03787E04A8AAAAB0D613E2BB7 /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMSimpleLineGraphView.h; path = Classes/BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		1603EA0EA47BFA61E3CD5ADB05A09320 /* Pods-GraphPlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphPlay-umbrella.h"; sourceTree = "<group>"; };
+		20F167C12AE61ED836225247448FE77C /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		36AEF6FBBF87F87A3125F0936A410C16 /* Pods-GraphPlay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphPlay-frameworks.sh"; sourceTree = "<group>"; };
+		3A78EA9675C1D7B9F2FDD9BA5837EB66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BADF6B7EB8655DD34DDF698200F51AD /* BEMCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCircle.m; path = Classes/BEMCircle.m; sourceTree = "<group>"; };
+		3FA5CB35933538F2BF7D47244098D389 /* BEMSimpleLineGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMSimpleLineGraph-dummy.m"; sourceTree = "<group>"; };
+		46FBB45B8B21D330FF007E18816544C6 /* BEMAverageLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAverageLine.h; path = Classes/BEMAverageLine.h; sourceTree = "<group>"; };
+		5BD85CA5CF5E4D6248DB431A296C8F36 /* Pods-GraphPlay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphPlay-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E7F37D3F2F26E808BCAB75D311C4630 /* BEMLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMLine.m; path = Classes/BEMLine.m; sourceTree = "<group>"; };
+		729F04D950C7A7C5B6CF2C767D79355E /* Pods-GraphPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		753D8564D93656CF501DEEB098CD0240 /* BEMSimpleLineGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEMSimpleLineGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AD48023703F2C24BA4DF399368EEF8 /* Pods-GraphPlay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphPlay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9434E8BDF9E8B554800BE7392298E663 /* BEMAverageLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAverageLine.m; path = Classes/BEMAverageLine.m; sourceTree = "<group>"; };
+		94B9E7407D1A0A56F7E4673E07FFE0C3 /* BEMSimpleLineGraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMSimpleLineGraph.xcconfig; sourceTree = "<group>"; };
+		981E1411BBB2AC7045EDE5CC05658603 /* BEMCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCircle.h; path = Classes/BEMCircle.h; sourceTree = "<group>"; };
+		A0064CA92B1E98837983EB712A15F731 /* Pods-GraphPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphPlay.release.xcconfig"; sourceTree = "<group>"; };
+		AEB7AE17EB328CD28D8B983B6252071B /* BEMPermanentPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPermanentPopupView.h; path = Classes/BEMPermanentPopupView.h; sourceTree = "<group>"; };
+		B2D2C3A3E3234468612489969A33199D /* BEMSimpleLineGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMSimpleLineGraph-umbrella.h"; sourceTree = "<group>"; };
+		BC9D7D0A5C2E79A584C016CB4F191D77 /* BEMSimpleLineGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BEMSimpleLineGraph.modulemap; sourceTree = "<group>"; };
+		BF3AA3FD7A6C81D795FB8CD9EDAD9652 /* Pods-GraphPlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphPlay-dummy.m"; sourceTree = "<group>"; };
+		CC640B8351D2DEA956D1C722135BEB76 /* Pods-GraphPlay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphPlay-resources.sh"; sourceTree = "<group>"; };
+		D4B68E1564F0BF0FBA904B69529A56B6 /* BEMPermanentPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPermanentPopupView.m; path = Classes/BEMPermanentPopupView.m; sourceTree = "<group>"; };
+		D541B9AE91E4A998D0BFEEC6B38ABAB4 /* Pods-GraphPlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GraphPlay.modulemap"; sourceTree = "<group>"; };
+		E3F5167DCF7E0A6E3C6939D56C19FA18 /* Pods_GraphPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49271F83ABCC808C4854CE4ACC026C /* BEMLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMLine.h; path = Classes/BEMLine.h; sourceTree = "<group>"; };
+		F88966FA853723CF5907B3F2256BCF3B /* BEMSimpleLineGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMSimpleLineGraph-prefix.pch"; sourceTree = "<group>"; };
+		FF366ADC7B03C98E01BE02ED3C3E0422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A858991D5E54B70953924C6F83BB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895ED61E8A32BA85BD7CEEDECDD58B45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2D18FF316906944CFB7837858B392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FE815D15133B3421D591F3016057BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B0DBAF1F7D2DCC002B41B8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				20F167C12AE61ED836225247448FE77C /* BEMSimpleLineGraphView.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		45584952B6A8335988503D73D3A1F35B /* BEMSimpleLineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				46FBB45B8B21D330FF007E18816544C6 /* BEMAverageLine.h */,
+				9434E8BDF9E8B554800BE7392298E663 /* BEMAverageLine.m */,
+				981E1411BBB2AC7045EDE5CC05658603 /* BEMCircle.h */,
+				3BADF6B7EB8655DD34DDF698200F51AD /* BEMCircle.m */,
+				ED49271F83ABCC808C4854CE4ACC026C /* BEMLine.h */,
+				6E7F37D3F2F26E808BCAB75D311C4630 /* BEMLine.m */,
+				AEB7AE17EB328CD28D8B983B6252071B /* BEMPermanentPopupView.h */,
+				D4B68E1564F0BF0FBA904B69529A56B6 /* BEMPermanentPopupView.m */,
+				10F930B03787E04A8AAAAB0D613E2BB7 /* BEMSimpleLineGraphView.h */,
+				01B0DBAF1F7D2DCC002B41B8 /* New Group */,
+				689DC6CD6D2D67AACAEA31ACC11456E3 /* Support Files */,
+			);
+			path = BEMSimpleLineGraph;
+			sourceTree = "<group>";
+		};
+		689DC6CD6D2D67AACAEA31ACC11456E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D7D0A5C2E79A584C016CB4F191D77 /* BEMSimpleLineGraph.modulemap */,
+				94B9E7407D1A0A56F7E4673E07FFE0C3 /* BEMSimpleLineGraph.xcconfig */,
+				3FA5CB35933538F2BF7D47244098D389 /* BEMSimpleLineGraph-dummy.m */,
+				F88966FA853723CF5907B3F2256BCF3B /* BEMSimpleLineGraph-prefix.pch */,
+				B2D2C3A3E3234468612489969A33199D /* BEMSimpleLineGraph-umbrella.h */,
+				FF366ADC7B03C98E01BE02ED3C3E0422 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMSimpleLineGraph";
+			sourceTree = "<group>";
+		};
+		711677D03977BB9787962EC59CF42E35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97F1213E3B15C9BE9277FBC991072E0 /* Pods-GraphPlay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		794744D2F091A7C11D73AAB7CBE1A255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45584952B6A8335988503D73D3A1F35B /* BEMSimpleLineGraph */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				794744D2F091A7C11D73AAB7CBE1A255 /* Pods */,
+				8DCEACDB18575E09C3A9B0E0ED3A230C /* Products */,
+				711677D03977BB9787962EC59CF42E35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCEACDB18575E09C3A9B0E0ED3A230C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753D8564D93656CF501DEEB098CD0240 /* BEMSimpleLineGraph.framework */,
+				E3F5167DCF7E0A6E3C6939D56C19FA18 /* Pods_GraphPlay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97F1213E3B15C9BE9277FBC991072E0 /* Pods-GraphPlay */ = {
+			isa = PBXGroup;
+			children = (
+				3A78EA9675C1D7B9F2FDD9BA5837EB66 /* Info.plist */,
+				D541B9AE91E4A998D0BFEEC6B38ABAB4 /* Pods-GraphPlay.modulemap */,
+				92AD48023703F2C24BA4DF399368EEF8 /* Pods-GraphPlay-acknowledgements.markdown */,
+				5BD85CA5CF5E4D6248DB431A296C8F36 /* Pods-GraphPlay-acknowledgements.plist */,
+				BF3AA3FD7A6C81D795FB8CD9EDAD9652 /* Pods-GraphPlay-dummy.m */,
+				36AEF6FBBF87F87A3125F0936A410C16 /* Pods-GraphPlay-frameworks.sh */,
+				CC640B8351D2DEA956D1C722135BEB76 /* Pods-GraphPlay-resources.sh */,
+				1603EA0EA47BFA61E3CD5ADB05A09320 /* Pods-GraphPlay-umbrella.h */,
+				729F04D950C7A7C5B6CF2C767D79355E /* Pods-GraphPlay.debug.xcconfig */,
+				A0064CA92B1E98837983EB712A15F731 /* Pods-GraphPlay.release.xcconfig */,
+			);
+			name = "Pods-GraphPlay";
+			path = "Target Support Files/Pods-GraphPlay";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2340B9B1C41327199BA74FAD8738C474 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE879FD91428BB90C584220A3492D12 /* Pods-GraphPlay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4924C0352046A1765995E5CFEEF9990C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6C543C987EA3645BFEFB0521ED793C /* BEMAverageLine.h in Headers */,
+				20C9DF8EBDE5E5741EBCB4FC53BBB28A /* BEMCircle.h in Headers */,
+				E6C6A257FBBB4C26C2A2D13360E45B0B /* BEMLine.h in Headers */,
+				960D304B3BDF4BA47B05D2341663C58D /* BEMPermanentPopupView.h in Headers */,
+				2365B3E4DB032997A7507456BAF72092 /* BEMSimpleLineGraph-umbrella.h in Headers */,
+				E1E2C11D1D26663319EA53869837B642 /* BEMSimpleLineGraphView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B78089A7BB67251C16B9B8E4D37A836 /* Pods-GraphPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9938994B7E3373FCB1E61F55E51EC44B /* Build configuration list for PBXNativeTarget "Pods-GraphPlay" */;
+			buildPhases = (
+				A4C58896FEE4A90CBFFE03E0AA783BC4 /* Sources */,
+				19A858991D5E54B70953924C6F83BB73 /* Frameworks */,
+				2340B9B1C41327199BA74FAD8738C474 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451809B4A822DF733FDA99A95C7DF2D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-GraphPlay";
+			productName = "Pods-GraphPlay";
+			productReference = E3F5167DCF7E0A6E3C6939D56C19FA18 /* Pods_GraphPlay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A421C6298CB3DF5D749193BD6FD0B38 /* BEMSimpleLineGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD1A84B2F4E05B55204944EAFBC21D1 /* Build configuration list for PBXNativeTarget "BEMSimpleLineGraph" */;
+			buildPhases = (
+				E367433613DC261761564DE23A174D6E /* Sources */,
+				ACF2D18FF316906944CFB7837858B392 /* Frameworks */,
+				4924C0352046A1765995E5CFEEF9990C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMSimpleLineGraph;
+			productName = BEMSimpleLineGraph;
+			productReference = 753D8564D93656CF501DEEB098CD0240 /* BEMSimpleLineGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8DCEACDB18575E09C3A9B0E0ED3A230C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A421C6298CB3DF5D749193BD6FD0B38 /* BEMSimpleLineGraph */,
+				4B78089A7BB67251C16B9B8E4D37A836 /* Pods-GraphPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4C58896FEE4A90CBFFE03E0AA783BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E74BD81A0503F230D839EAE2BEBEB90 /* Pods-GraphPlay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E367433613DC261761564DE23A174D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0BC6BBB317EDF12B9EACBBC1C8C2C0 /* BEMAverageLine.m in Sources */,
+				E479B43F3FCEE39B4A29646EFFF6A37D /* BEMCircle.m in Sources */,
+				BAB705A04BC6388D300352B078852045 /* BEMLine.m in Sources */,
+				8856A187017D6F9BCDD9467126FA5F20 /* BEMPermanentPopupView.m in Sources */,
+				861B6A549CB77F0A51939C966DE0206C /* BEMSimpleLineGraph-dummy.m in Sources */,
+				12F36D590677B18E9993CC59D2550B28 /* BEMSimpleLineGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451809B4A822DF733FDA99A95C7DF2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMSimpleLineGraph;
+			target = 8A421C6298CB3DF5D749193BD6FD0B38 /* BEMSimpleLineGraph */;
+			targetProxy = 8B33DD80E5C0404C9E5138EA17D2C254 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A698841E0A29E85E3DCF100858A94062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729F04D950C7A7C5B6CF2C767D79355E /* Pods-GraphPlay.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphPlay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphPlay/Pods-GraphPlay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GraphPlay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA91EF7DDB91162B1EAD74204C93AE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B9E7407D1A0A56F7E4673E07FFE0C3 /* BEMSimpleLineGraph.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMSimpleLineGraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BEMSimpleLineGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B562D3E927F142041C25E33BDCA3D342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B9E7407D1A0A56F7E4673E07FFE0C3 /* BEMSimpleLineGraph.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMSimpleLineGraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BEMSimpleLineGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1C65F86157E712BD2F8821511F0B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0064CA92B1E98837983EB712A15F731 /* Pods-GraphPlay.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphPlay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphPlay/Pods-GraphPlay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GraphPlay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9938994B7E3373FCB1E61F55E51EC44B /* Build configuration list for PBXNativeTarget "Pods-GraphPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A698841E0A29E85E3DCF100858A94062 /* Debug */,
+				FC1C65F86157E712BD2F8821511F0B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD1A84B2F4E05B55204944EAFBC21D1 /* Build configuration list for PBXNativeTarget "BEMSimpleLineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B562D3E927F142041C25E33BDCA3D342 /* Debug */,
+				AA91EF7DDB91162B1EAD74204C93AE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
